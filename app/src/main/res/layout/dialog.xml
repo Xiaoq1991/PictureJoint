@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="205dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="85dp"
+    android:layout_marginRight="85dp"
+    android:gravity="center"
+    android:layout_marginTop="246.5dp"
+    android:layout_marginBottom="246.5dp"
+    android:orientation="vertical">
+    <com.example.omegaxiao.picturejoint.JointBitmapView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:id="@+id/jp_download"
+        android:layout_marginLeft="60.5dp"
+        android:layout_marginRight="60.5dp"
+        android:layout_marginTop="0dp"
+        app:startSrc="@drawable/sprite_game_loading"
+        app:endSrc="@drawable/sprite_game_loading_end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#ababab"
+        android:text="游戏即将开始！请稍等..."/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="52.5dp"
+        android:layout_marginRight="52.5dp"
+        android:layout_marginTop="35dp"
+        android:textSize="14sp"
+        android:text="取消"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn"
+        />
+
+</LinearLayout>
